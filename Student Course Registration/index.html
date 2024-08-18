@@ -1,1 +1,57 @@
-
+<html>
+    <head>
+        <title>Student Registration</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+       <h1 id="topic">Student Course Registration</h1>
+       <h2>Available Courses</h2>
+       <table>
+        <tr>
+            <th>Course Name</th>
+            <th>Course Code</th>
+            <th>Instructor</th>
+            <th>Seat Available</th>
+        </tr>
+        <tr>
+            <td>Web Develpoment</td>
+            <td>WD101</td>
+            <td>John doe</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>Data Structure</td>
+            <td>CS201</td>
+            <td>Jane Smith</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>Database System</td>
+            <td>DB301</td>
+            <td>Micheal Brown</td>
+            <td>20</td>
+        </tr>
+       </table>
+       <h2>Register for a Course</h2>
+       <div id="box">
+        <form>
+            <label id="name">Name:</label>
+            <input type="text"><br/><br/>
+            <label id="email">Email:</label>
+            <input type="email">
+            <label id="password">Password:</label>
+            <input type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+             <br/><br/>
+            <label id="Course">Select Course</label>
+            <select>
+                <option>Web Develpoment</option>
+                <option>Data Structure</option>
+                <option>Database System</option>
+            </select><br/><br/>
+            <input id="submit" type="submit">
+            <input id="reset" type="reset"><br/><br/>
+        </form>
+       </div>
+       <footer> <p>Contact us at support@example.com</p></footer>
+    </body>
+</html>
