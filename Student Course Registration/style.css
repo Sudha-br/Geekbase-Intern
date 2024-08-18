@@ -1,0 +1,46 @@
+body{
+    background-color:lightcyan;
+}
+#topic{
+    text-align: center;
+}
+table,th,td{
+    border-collapse: collapse;
+    border: 1px solid gray;
+    
+}
+#password{
+    margin-left: 40%;
+}
+table{
+    width: 100%;
+}
+td,th{
+    padding: 5px;
+}
+form{
+    margin: 5px;
+    background-color:ghostwhite;
+}
+label{
+    margin-top: 5px;
+    margin-left: 3px;
+}
+tr:first-child{
+    background-color: lightblue;
+}
+tr:nth-child(even){
+    background-color: lavenderblush;
+}
+footer{
+    text-align:center;
+}
+div{
+    margin: 3px;
+}
+#submit{
+    background-color: green;
+}
+#reset{
+    background-color: red;
+}
